@@ -120,7 +120,7 @@ npx playwright codegen
 npx playwright test
 ```
 
-####### **And check out the following files:**
+#### **And check out the following files:**
   - .\tests\example.spec.js - Example end-to-end test
   - .\tests-examples\demo-todo-app.spec.js - Demo Todo App end-to-end tests
   - .\playwright.config.js - Playwright Test configuration
