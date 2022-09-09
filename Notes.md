@@ -1,4 +1,12 @@
 
+```
+npx playwright test tests\demo\* --project=chromium
+```
+
+```
+npx playwright test tests\video_test\* --project=chromium
+```
+
 ====================================================================================================
 
 # Linea de comando

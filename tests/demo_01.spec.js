@@ -1,6 +1,13 @@
-import { test, expect } from '@playwright/test';
-test('test', async ({ page }) => {
+import { test, expect, chromium } from '@playwright/test';
+
+test('Prueba desde un navegador ', async ({ }) => {
     
+    const browserChrome = await chromium.launch({
+        headless: false
+    })
+    const context = await browserChrome.newContext();
+    const page = await context.newPage();
+
     // Go to https://playwright.dev/
     await page.goto('https://playwright.dev/');
     
