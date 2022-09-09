@@ -1,4 +1,9 @@
+
+## Dependencias
 node_modules/
+
+## Carpetas 
+/video/
 /test-results/
 /playwright-report/
 /playwright/.cache/
